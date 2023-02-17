@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Suranna&display=swap');
+
+body { 
+    margin: 0,auto;
+    padding: 0%;
+} 
+
+
+.background {
+    display: block;
+    position: absolute;
+    width: 1400px;
+    height: 58px;
+    background-color: #13161d;
+}
+
+/* Левая часть */
+.text-home {
+    display: inline-block;
+    position: absolute;
+    padding-left: 79px;
+    padding-top: 8px;
+
+}
+.text-home a{
+    font-family: Fjalla One;
+    font-size: 28px;
+}
+
+.proba{
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+
+.navi-link {
+display: block;
+position: relative;
+padding-left: 38px;
+}
+li{
+    display: inline-block;
+}
+.navi-link a{
+    font-family: Roboto;
+    font-size: 16px;
+    padding-right: 29px;
+}
+
+.background a {
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+}
+.text-left a:hover,
+.text-right a:hover,
+.text-home a:hover {
+    color: #EE904B;
+}
+
+/* Текс справа */
+.text-right {
+    /* display: inline-block; */
+    position: absolute;
+    left: 1040px;
+    font-family: Roboto;
+}
+
+.account {
+    display: inline-block;
+    padding-top: 17px;
+    font-family: Roboto;
+}
+
+.drop {
+    display: inline-block;
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 38px;
+}
+
+.shape {
+    display: block;
+    position: relative;
+    left: 22px;
+    bottom: 16px;
+
+}
+/* выпадающее меню */
+.language {
+    display: none;
+    position: relative;
+    right: 20px;
+    bottom: 7px;
+    list-style: none;
+    text-align: center;
+}
+
+.language a {
+    position: relative;
+    right: 20px;
+}
+
+.drop:hover .language {
+    display: block;
+    color: #EE904B;
+    background-color: #13161d;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    left: 99px;
+}
+
+.image a {
+    padding-right: 10px;
+}
+
+.book {
+    display: inline-block;
+    position: absolute;
+    bottom: 1px;
+}
+
+.stop {
+    display: inline-block;
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+}
+/* Основной лист */
+.main{
+    display: inline;
+}
+
+/* page 1 */
+.background-title {
+    display: block;
+    position: relative;
+    top: 58px;
+    width: 854px;
+    height: 730px;
+    background-color: #8D765B;
+    padding-top: 0;
+}
+
+.text-title{
+    display: block;
+    position: absolute;
+    padding-top: 66px;
+}
+.text-title p {
+margin: 0;
+color: white;
+font-family: Roboto;
+font-size: 76px;
+padding-top: 0px;
+padding-left: 79px;
+
+}
+.text-by{
+    display: block;
+    position: absolute;
+    top: 275px;
+    left: 54px;
+    font-family: Roboto;
+    font-size: 24px;
+    color: white;
+
+}
+
+
+
+.btn-title a{
+    display: block;
+    position: absolute;
+    top: 615px;
+    left: 83px;
+    width: 215px;
+    height: 54px;
+    padding-top: 15px;
+    padding-left: 31px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #10131A;
+    
+}
+.btn-title a:hover{
+    color: #EE904B;
+}
+
+/* foto */
+
+.background-women{
+    position: absolute;
+    display: block;
+    left: 718px;
+    top: 69px;
+    z-index: 2;
+}
+.background-men{
+    display: block;
+    max-width: 300px;
+    position: absolute;
+    left: 1009px;
+    top: 119px;
+    z-index: 1;
+}
+.background-men a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.background-men:hover{
+    z-index: 3;
+    transition: 1s;
+    transform: scale(1.20);
+}
+
+.link-women{
+    display:inline-block;
+    position: relative;
+    left: 873px;
+    top: 579px;
+    z-index: 2;
+}
+
+.link-women a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 28px;
+}
+.link-men a:hover,
+.link-women a:hover{
+    color: #EE904B;
+}
+.link-men{
+    position: absolute;
+    top: 427px;
+    left: 130px;
+}
+
+/* Текст */
+.container_list-2{
+    max-width: 1400px;
+}
+.list-2{
+    position: absolute;
+    padding-top: 105px;
+    padding-left: 94px; 
+}
+/* ЛИСТАЛКА */
+
+.form{
+    display: block;
+    position: absolute;
+    top: 1072px;
+    width: 1400px;
+    height: 1000px;
+}
+.foto-list1{
+    /* max-width: 1400px; */
+    max-height: 500px;
+    top: 284px;
+    display: flex;
+    justify-content: center;
+
+}
+.foto-list1 a:not(:last-child){
+    padding-right: 50px;
+}
+.img_2,
+.img_1{
+    padding-top: 50px;
+}
+
+/* КНОПКА */
+.btn-title-2 {
+    display: block;
+    position: relative;
+    top: 72px;
+    left: 1038px;
+    width: 215px;
+    height: 54px;
+    border-width: 1px;
+    border-style: solid;
+}
+.btn-title-2 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:  black;
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: transparent;
+}
+.btn-title-2 a:hover{
+    color: #EE904B;
+}
+
+
+
+/* List 3 */
+.background-list-3{
+    display: block;
+    position: absolute;
+    top: 1817px;
+    width: 1400px;
+    height: 1000px;
+    background-color: #8D765B;
+}
+
+.container_list-3{
+    max-width: 1400px;
+}
+.text-list-3{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 94px; 
+}
+
+/* Листалка 2 */
+.carousel-list-3{
+    position: relative;
+    top: 242px;
+}
+.foto-list-3{
+    max-width: 1400px;
+    max-height: 500px;
+    top: 284px;
+    display: flex;
+    justify-content: center;
+
+}
+.foto-list-3 a:not(:last-child){
+    padding-right: 50px;
+}
+.list-img_2,
+.list-img_3{
+    padding-top: 50px;
+}
+
+/* Кнопка 3 */
+.btn-list-3 {
+    display: block;
+    position: relative;
+    top: 321px;
+    left: 1046px;
+    width: 215px;
+    height: 54px;
+    background-color: #10131A;
+    /* border-width: 1px;
+    border-style: solid; */
+}
+.btn-list-3 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    /* color:  black; */
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: transparent;
+}
+.btn-list-3 a:hover{
+    color: #EE904B;
+}
+
+/* List-4 */
+
+.background-list-4{
+    display: block;
+    position: absolute;
+    top: 2817px;
+}
+
+.foto-list-4{
+    max-width: 1400px;
+    display: flex;
+}
+.text-list-4{
+    position: absolute;
+    margin: 0;
+    padding: 0%;
+    padding-left: 262px;
+    padding-top: 150px;
+
+}
+.text-list-4 a{
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: red;
+    font-family: Suranna;
+    font-size: 200px;
+}
+
+/* Footer */
+
+.footer{
+    position: absolute;
+    width: 1400px;
+    height: 653px;
+    top:3408px;
+    background-color: #13161D;
+}
+.capture{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 106px;
+    padding-left: 82px;
+}
+
+#text-2{
+    padding-left: 170px;
+}
+#text-3{
+    padding-left: 282px;
+}
+.capture li{
+    font-family: Roboto;
+    font-size: 26px;
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    padding-left: 82px;
+    padding-top: 31px;
+}
+.text-center-4{
+    padding-left:42px;
+}
+.text-left-4{
+    padding-left: 78px;
+}
+
+.text-right-4 a,
+.text-center-4 a,
+.text-left-4 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+}
+.text-right-4 a:hover ,
+.text-left-4 a:hover{
+    color: #EE904B;
+}
+
+.icons{
+    position: absolute;
+    left: 82px;
+    top: 550px;
+}
+.icons a{
+    padding-right: 19px;
+}
